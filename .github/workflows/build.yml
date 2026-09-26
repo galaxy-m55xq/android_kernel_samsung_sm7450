@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - experimental/kCFI-backport
   pull_request:
 
 jobs:
