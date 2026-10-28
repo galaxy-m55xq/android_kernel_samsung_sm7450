@@ -198,7 +198,7 @@ static int __apply_relocate_add(Elf64_Shdr *sechdrs,
 			write(loc, &val, 8);
 			break;
 		case R_X86_64_8:
-			if (!strncmp(strtab + sym->st_name, "__typeid__", 10))
+			if (!strncmp(strtab + sym->st_name, "__kcfi_typeid_", 14))
 				break;
 			/* fallthrough */
 		default:

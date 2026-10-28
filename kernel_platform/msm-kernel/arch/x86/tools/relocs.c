@@ -48,7 +48,7 @@ static const char * const sym_regex_kernel[S_NSYMTYPES] = {
 	"^(xen_irq_disable_direct_reloc$|"
 	"xen_save_fl_direct_reloc$|"
 	"VDSO|"
-	"__typeid__|"
+	"__kcfi_typeid_|"
 	"__crc_)",
 
 /*

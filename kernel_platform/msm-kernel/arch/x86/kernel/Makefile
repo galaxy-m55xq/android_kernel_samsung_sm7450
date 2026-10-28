@@ -155,6 +155,8 @@ obj-$(CONFIG_UNWINDER_GUESS)		+= unwind_guess.o
 
 obj-$(CONFIG_AMD_MEM_ENCRYPT)		+= sev-es.o
 
+obj-$(CONFIG_CFI_CLANG)			+= cfi.o
+
 obj-$(CONFIG_ARCH_HAS_CC_PLATFORM)	+= cc_platform.o
 
 ###
